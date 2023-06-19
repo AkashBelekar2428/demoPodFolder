@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'poddemofolder'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Simple Library of MFTAAuthenticationFactors.'
 
 # This description is used to generate tags and improve search results.
@@ -34,22 +34,24 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD'
   s.dependency 'ObjectMapper', '~> 4.2'
   s.resources = [
-                  'Source/Cons/*.{swift}',
-                  'Source/ComponentManager/*.{swift}',
-                  'Source/Configurations/*.{swift}',
-                  'Source/EmailAuth/**/*.{swift}',
-                  'Source/LoginAuth/*.{swift}',
-                  'Source/MobileAuth/*.{swift}',
-                  'Source/Network/*.{swift}',
-                  'Source/PINAuth/*.{swift}',
-                  'Source/Presentor/*.{swift}',
-                  'Source/Protocol/*.{swift}',
-                  'Source/Request/*.{swift}',
-                  'Source/Response/*.{swift}',
-                  'Source/UIClasses/*.{swift}',
-                  'Source/Utility/*.{swift}',
-                  'Source/ValidationManager/*.{swift}'
+                  'Source/Cons/*.swift',
+                  'Source/ComponentManager/*.swift',
+                  'Source/Configurations/*.swift',
+                  'Source/EmailAuth/*.swift',
+                  'Source/LoginAuth/*.swift',
+                  'Source/MobileAuth/*.swift',
+                  'Source/Network/*.swift',
+                  'Source/PINAuth/*.swift',
+                  'Source/Presentor/*.swift',
+                  'Source/Protocol/*.swift',
+                  'Source/Request/*.swift',
+                  'Source/Response/*.swift',
+                  'Source/UIClasses/*.swift',
+                  'Source/Utility/*.swift',
+                  'Source/ValidationManager/*.swift',
+                  'Source/Fonts/*.ttf',
+                  'Source/Resources/*.xib',
+                  'Source/Assets/*.xcassets'
                 ]
   s.source_files = 'Source/**/*.swift'
-  s.preserve_paths = 'Source/Fonts/*.ttf',  'Source/Resources/*.xib','Source/Assets/*.xcassets'
 end
