@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'One Of the best Library. Very simple to use and readable'
                        DESC
 
-  s.homepage         = 'https://github.com/akashbelekar2428/poddemofolder'
+  s.homepage         = 'https://github.com/AkashBelekar2428/demoPodFolder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akashbelekar2428' => 'akashbelekar108@gmail.com' }
-  s.source           = { :git => 'https://github.com/akashbelekar2428/poddemofolder.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AkashBelekar2428/demoPodFolder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
