@@ -1,9 +1,12 @@
 use_frameworks!
 
-platform :ios, '10.0'
+#platform :ios, '10.0'
 
 target 'poddemofolder_Example' do
   pod 'poddemofolder', :path => '../'
+  pod 'Alamofire', '~> 5.4'
+  pod 'ObjectMapper', '~> 4.2'
+  pod 'SVProgressHUD'
 
   target 'poddemofolder_Tests' do
     inherit! :search_paths
