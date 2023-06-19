@@ -1,8 +1,8 @@
 {
   "name": "poddemofolder",
-  "version": "0.1.0",
-  "summary": "A short description of poddemofolder.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.1.0",
+  "summary": "Simple Library of MFTAAuthenticationFactors.",
+  "description": "'One Of the best Library. Very simple to use and readable'",
   "homepage": "https://github.com/akashbelekar2428/poddemofolder",
   "license": {
     "type": "MIT",
@@ -13,10 +13,45 @@
   },
   "source": {
     "git": "https://github.com/akashbelekar2428/poddemofolder.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "poddemofolder/Classes/**/*"
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.4"
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "ObjectMapper": [
+      "~> 4.2"
+    ]
+  },
+  "resources": [
+    "Source/Cons/*.{swift}",
+    "Source/ComponentManager/*.{swift}",
+    "Source/Configurations/*.{swift}",
+    "Source/EmailAuth/**/*.{swift}",
+    "Source/LoginAuth/*.{swift}",
+    "Source/MobileAuth/*.{swift}",
+    "Source/Network/*.{swift}",
+    "Source/PINAuth/*.{swift}",
+    "Source/Presentor/*.{swift}",
+    "Source/Protocol/*.{swift}",
+    "Source/Request/*.{swift}",
+    "Source/Response/*.{swift}",
+    "Source/UIClasses/*.{swift}",
+    "Source/Utility/*.{swift}",
+    "Source/ValidationManager/*.{swift}"
+  ],
+  "source_files": "Source/**/*.swift",
+  "preserve_paths": [
+    "Source/Fonts/*.ttf",
+    "Source/Resources/*.xib",
+    "Source/Assets/*.xcassets"
+  ],
+  "swift_version": "5.0"
 }
