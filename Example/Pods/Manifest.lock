@@ -1,7 +1,7 @@
 PODS:
   - Alamofire (5.7.1)
   - ObjectMapper (4.2.0)
-  - poddemofolder (1.1.0):
+  - poddemofolder (1.1.1):
     - Alamofire (~> 5.4)
     - ObjectMapper (~> 4.2)
     - SVProgressHUD
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  poddemofolder: 0bcbac4935ea7de42ca92504563834bf9f60a1bb
+  poddemofolder: 9d2e42aaa4f9963722ff1bde4052fd8681733561
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 9bd58e93aadcab4dfa6c84fec7c2976642357b45
